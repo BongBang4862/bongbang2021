@@ -1,0 +1,61 @@
+body {
+  background: #F7F9FC;
+  color: #575F7D;
+  font-family: monospace, serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+header {
+  font-size: 19px;
+  font-family: Raleway;
+}
+.img-container{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle{
+  border-radius: 50%;
+}
+a {
+  text-decoration: none;
+  color: brown;
+}
+a:hover{
+  color:burlywood;
+}
+.card {
+  width: 300px;
+  margin: 0 auto;
+}
+.btn-discover {
+  padding: 15px 20px;
+  font-size: 16px;
+  font-family: "Roboto", 'sans-serif';
+  background-color:cornflowerblue;
+  border-radius: 5px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
